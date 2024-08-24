@@ -1,0 +1,81 @@
+g{
+    transform: scale(0.3); /* Adjust the scale factor as needed */
+    transform-origin: center; /* Zooms out from the center */
+    
+}
+*{
+    /* background-color: rgb(236, 246, 246); */
+}
+
+/* Resume Section */
+.resume {
+    padding: 2rem 0;
+}
+
+.resume__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.resume__text {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* contact button */
+/* Button Styling */
+.button {
+    display: inline-block;
+    background-color: #007bff; /* Blue background */
+    color: white;             /* White text color */
+    padding: 0.75rem 1.5rem;  /* Vertical and horizontal padding */
+    border: none;             /* Remove default border */
+    border-radius: 5px;      /* Rounded corners */
+    text-decoration: none;   /* Remove underline */
+    font-size: 1rem;         /* Font size */
+    font-weight: bold;       /* Bold text */
+    text-align: center;      /* Center text inside button */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition effects */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05);    /* Slightly enlarge on hover */
+}
+
+.button:active {
+    background-color: #004494; /* Even darker blue when clicked */
+    transform: scale(1);       /* Return to original size when clicked */
+}
+
+/*Additional*/
+ /* Additional Button Styling for Persistent State */
+ .button.clicked {
+    background-color: #003d7a; /* Change to a different color after click */
+}
+
+.nav__item #color {
+    color: #fff;
+}

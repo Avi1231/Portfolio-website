@@ -1,2 +1,9 @@
-# Portfolio-website
-Welcome to my portfolio website! This repository contains the code for my personal portfolio, which highlights my resume and showcases my skills, projects, and experience. This portfolio is built using HTML, CSS, and JavaScript. 
+# Portfolio Responsive Complete
+### Portfolio Responsive Complete
+
+- Responsive Personal Portfolio Website HTML CSS & JavaScript.
+- Contains animations when scrolling.
+- Smooth scrolling in each section.
+- Developed first with the Mobile First methodology, then for desktop.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+

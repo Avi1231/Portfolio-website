@@ -1,0 +1,23 @@
+/* General Styling for the About Section */
+.about__content {
+    background-color: #f9f9f9; /* Light background color similar to the projects section */
+    padding: 2rem; /* Padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card-like effect */
+    margin-bottom: 2rem; /* Spacing between items */
+    max-width: 800px; /* Limit the maximum width for better readability */
+    margin-left: auto; /* Center the div horizontally */
+    margin-right: auto; /* Center the div horizontally */
+}
+
+.about__subtitle {
+    font-size: 1.5rem; /* Font size for the subtitle */
+    color: #333; /* Dark text color */
+    margin-bottom: 1rem; /* Space below the subtitle */
+}
+
+.about__text {
+    font-size: 1rem; /* Font size for the text */
+    color: #555; /* Slightly lighter text color */
+    line-height: 1.6; /* Line height for better readability */
+}

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="myStyle.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="experience.css">
+    <link rel="stylesheet" href="biography.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio website complete</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MXT5N2JMFD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-MXT5N2JMFD');
+    </script>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">My Portfolio</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" id="color" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" id="color" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" id="color" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" id="color" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#resume" id="color" class="nav__link">Resume</a></li>
+                    <li class="nav__item"><a href="#contact" id="color" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Welcome !<br>I am <span class="home__title-color">Avinash</span><br> A learning
+                    enthusiastic !</h1>
+
+                <!-- <a href="#" class="button">Contact</a> -->
+                <a href="mailto:dharmeavinash14@gmail.com" class="button">Contact</a>
+
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/avinash-dharme-abb413198/" target="_blank"
+                    class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+
+                <a href="https://github.com/avi1231" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="Avinash.JPG" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="Avinash.JPG" alt="">
+                </div>
+
+                <div class="about__content">
+                    <h2 class="about__subtitle">Hello! I'm Avinash</h2>
+                    <p class="about__text">"I hold a B.Sc. degree and am currently pursuing an MCA. I bring 3+ years of
+                        experience as a Process Associate at TCS Nagpur. I’m eager to transition into the IT field and
+                        apply my skills in a new, dynamic environment."</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">C++</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">60%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">JAVA & OOPS</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== PROJECTS =====-->
+        <section class="projects section" id="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="projects__container bd-grid">
+                <div class="projects__item">
+
+                    <h3 class="projects__title">1. EXPENSEMATE: AN EXPENSE TRACKING SYSTEM</h3>
+                    <ul class="projects__description">
+                        <li><strong>Tech-Stack: Java | JDBC | MySQL</strong></li>
+                        <li>Developed an Expense Tracker standalone application using NetBeans, incorporating a MySQL
+                            database for secure data storage and a user-friendly Java JFrame-based interface.</li>
+                        <li>Helps users understand where their money is going by providing a detailed record of all
+                            expenses. Identifies areas where users can cut costs and save money.</li>
+                        <li>Assists in setting and maintaining budgets to ensure spending aligns with financial goals.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="projects__item">
+
+                    <h3 class="projects__title">2. PORTFOLIO WEBSITE</h3>
+                    <ul class="projects__description">
+                        <li><strong>Tech-Stack: HTML | CSS | JAVASCRIPT | Google Sheets API</strong></li>
+                        <li><strong>Responsive Design:</strong> Developed a fully responsive portfolio website to
+                            showcase projects, skills, and experience. The website is optimized for various devices,
+                            including desktops, tablets, and mobile phones.</li>
+                        <li><strong>User-Friendly Interface:</strong> Implemented a clean, modern design with easy
+                            navigation and an intuitive layout that enhances user experience.</li>
+                        <li><strong>Contact Form Integration:</strong> Implemented a functional contact form using
+                            JavaScript and Google Sheets API to capture and store inquiries directly in Google Sheets.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="projects__item">
+
+                    <h3 class="projects__title">3. SMART TIME TABLE GENERATOR</h3>
+                    <ul class="projects__description">
+                        <li><strong>Tech-Stack: HTML | CSS | PYTHON | DJANGO | JAVASCRIPT | SQLITE3</strong></li>
+                        <li>Built a platform that generates the best optimal timetable for regular lectures.</li>
+                        <li>The generated timetable is useful for different departments.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!--===== PROFESSIONAL EXPERIENCE =====-->
+        <section class="experience section" id="experience">
+            <h2 class="section-title">Professional Experience</h2>
+
+            <div class="experience__container bd-grid">
+                <div class="experience__item">
+                    <h3 class="experience__title">Process Associate</h3>
+                    <h4 class="experience__company">Tata Consultancy Services, Nagpur</h4>
+                    <p class="experience__date">November 2018 - December 2021</p>
+                    <h4>Roles and Responsibilities:</h4>
+                    <ul class="experience__description">
+                        <li>Client's request identification & assigning that to relevant team for processing.</li>
+                        <li>Gathering Processing Improvement Ideas.</li>
+                        <li>Policy Servicing.</li>
+                        <li>Agency & LOA (Letter of Authority) Management.</li>
+                        <li>Client's Personal Details Alteration.</li>
+                    </ul>
+                </div>
+                <!-- You can add more experience items here if needed -->
+            </div>
+        </section>
+
+        <!--===== RESUME =====-->
+        <section class="resume section" id="resume">
+            <h2 class="section-title">Resume</h2>
+
+            <div class="resume__container bd-grid">
+                <div class="resume__content">
+                    <h2 class="resume__subtitle">View My Resume</h2>
+                    <p class="resume__text">Click the buttons below to view my resume.</p>
+                    <a href="https://drive.google.com/file/d/1La-oF0oxy8SPL02DOda3smWjabwoBsFU/preview" class="btn"
+                        target="_blank">View Resume</a>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form method="POST" class="contact__form" name="google-sheet">
+                    <input type="text" name="Name" placeholder="Name" class="contact__input">
+                    <input type="mail" name="Email" placeholder="Email" class="contact__input">
+                    <textarea name="Message" placeholder="Type your message..." id="" cols="0" rows="10"
+                        class="contact__input"></textarea>
+                    <input type="button" name="Send Message" value="Send Message" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Avinash</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; 2024. All rigths reserved</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
+    <script>
+        function changeButtonColor(element) {
+            // Add a class to the button when it's clicked
+            element.classList.add('clicked');
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw679rBj3PgLcn2tCZTL2gcOMQo6XDzvhYaK_ApSMaTDTCWeb42vz55SsBE8VpMS1kFlw/exec'
+        const form = document.forms['google-sheet']
+        const submitButton = document.querySelector('input[name="Send Message"]');
+
+        submitButton.addEventListener('click', e => {
+            e.preventDefault(); // Prevent the default button behavior
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("Thanks for Contacting..!"))
+                .catch(error => console.error('Error!', error.message));
+        })
+    </script>
+</body>
+
+</html>
